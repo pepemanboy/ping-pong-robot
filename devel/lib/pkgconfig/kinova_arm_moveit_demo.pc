@@ -1,0 +1,8 @@
+prefix=/home/pepe/melendez_ws/devel
+
+Name: kinova_arm_moveit_demo
+Description: Description of kinova_arm_moveit_demo
+Version: 0.6.3
+Cflags: -I/home/pepe/melendez_ws/src/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/include
+Libs: -L/home/pepe/melendez_ws/devel/lib 
+Requires: moveit_core moveit_ros_planning_interface interactive_markers

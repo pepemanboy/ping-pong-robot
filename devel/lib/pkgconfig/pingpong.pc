@@ -1,0 +1,8 @@
+prefix=/home/pepe/melendez_ws/devel
+
+Name: pingpong
+Description: Description of pingpong
+Version: 0.1.0
+Cflags: -I/home/pepe/melendez_ws/devel/include -I/home/pepe/melendez_ws/src/pingpong/include
+Libs: -L/home/pepe/melendez_ws/devel/lib 
+Requires: moveit_core moveit_ros_planning_interface interactive_markers message_runtime

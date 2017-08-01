@@ -1,0 +1,8 @@
+prefix=/home/pepe/melendez_ws/devel
+
+Name: kinova_description
+Description: Description of kinova_description
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/pepe/melendez_ws/devel/lib 
+Requires: 

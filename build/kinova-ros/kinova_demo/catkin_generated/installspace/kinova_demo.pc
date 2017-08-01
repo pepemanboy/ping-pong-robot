@@ -1,0 +1,8 @@
+prefix=/home/pepe/melendez_ws/install
+
+Name: kinova_demo
+Description: Description of kinova_demo
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/pepe/melendez_ws/install/lib 
+Requires: kinova_driver kinova_msgs roscpp rospy std_msgs geometry_msgs

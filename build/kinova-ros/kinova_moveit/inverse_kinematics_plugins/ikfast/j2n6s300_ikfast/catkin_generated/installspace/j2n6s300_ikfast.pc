@@ -1,0 +1,8 @@
+prefix=/home/pepe/melendez_ws/install
+
+Name: j2n6s300_ikfast
+Description: Description of j2n6s300_ikfast
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/pepe/melendez_ws/install/lib 
+Requires: moveit_core pluginlib roscpp tf_conversions

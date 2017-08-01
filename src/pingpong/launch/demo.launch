@@ -1,0 +1,9 @@
+<launch>
+
+  <include file="$(find j2n6s300_moveit_config)/launch/j2n6s300_virtual_robot_demo.launch"/>
+  <node name ="robot" pkg ="pingpong" type ="robot"/>
+  <node name = "vision" pkg="pingpong" type ="vision"/>
+  <node name = "ball" pkg = "pingpong" type = "ball"/>
+  <node name = "interceptor" pkg = "pingpong" type ="interceptor"/>
+
+</launch>

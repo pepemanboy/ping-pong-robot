@@ -1,0 +1,8 @@
+prefix=/home/pepe/melendez_ws/devel
+
+Name: m1n6s300_moveit_config
+Description: Description of m1n6s300_moveit_config
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/pepe/melendez_ws/devel/lib 
+Requires: 

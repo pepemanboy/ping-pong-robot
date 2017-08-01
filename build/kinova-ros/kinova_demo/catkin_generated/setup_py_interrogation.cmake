@@ -1,0 +1,6 @@
+set(kinova_demo_SETUP_PY_VERSION "0.0.1")
+set(kinova_demo_SETUP_PY_SCRIPTS "")
+set(kinova_demo_SETUP_PY_PACKAGES "kinova_demo")
+set(kinova_demo_SETUP_PY_PACKAGE_DIRS "nodes/kinova_demo")
+set(kinova_demo_SETUP_PY_MODULES "")
+set(kinova_demo_SETUP_PY_MODULE_DIRS "")

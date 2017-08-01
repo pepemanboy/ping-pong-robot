@@ -1,0 +1,8 @@
+prefix=/home/pepe/melendez_ws/install
+
+Name: kinova_driver
+Description: Description of kinova_driver
+Version: 0.0.1
+Cflags: -I/home/pepe/melendez_ws/install/include
+Libs: -L/home/pepe/melendez_ws/install/lib -lkinova_driver
+Requires: actionlib actionlib_msgs geometry_msgs kinova_msgs roscpp rospy sensor_msgs std_msgs tf interactive_markers visualization_msgs

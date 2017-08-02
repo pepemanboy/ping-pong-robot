@@ -152,9 +152,8 @@ I put all the necessary files to run the project on a github repo
 
 Run the following lines
 ```
-$cd ~
-
-$mkdir melendez\_ws
-
-$git clone [https://github.com/pepemanboy/ping-pong-robot.git](https://github.com/pepemanboy/ping-pong-robot.git)
+cd ~
+mkdir /melendez_ws
+cd melendez_ws
+git clone [https://github.com/pepemanboy/ping-pong-robot.git](https://github.com/pepemanboy/ping-pong-robot.git)
 ```

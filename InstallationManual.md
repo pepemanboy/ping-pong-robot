@@ -157,3 +157,41 @@ mkdir /melendez_ws
 cd melendez_ws
 git clone [https://github.com/pepemanboy/ping-pong-robot.git](https://github.com/pepemanboy/ping-pong-robot.git)
 ```
+
+**12. Setup your workspace**
+IMPORTANT HERE. The folder you downloaded contains build and devel folders, as well as other makefiles that are specific to my system. (Will bring them down the github repo when i back them up somewhere else) So, the only folder that concerns you is melendez_ws/src.
+
+Go to your home directory and create a folder with your name that will be your workspace. For example: ~/catherine_ws
+
+Move melendez_ws/src to ~/catherine_ws/src
+
+Now you have your sources set in a ros workspace called catherine_ws.
+
+Open a terminal and cd to catherine_ws.
+
+Now, type
+
+```
+catkin_make
+```
+
+This should build the sources. It takes like 2-5 minutes.
+
+Now the package is correctly setup.
+
+***13. Running demo***
+For ROS to be able to locate your workspace, everytime you want to work with it, open a terminal and type:
+
+```
+source ~/catherine_ws/devel/setup.bash
+```
+
+This will make your package available only for the current session (terminal). More on that on ROS tutorials.
+
+Now you can ```rospack find pingpong```, and will print the location of the project.
+
+Finally, to run the demo, run ```roslaunch pingpong demo.launch```
+
+-------
+Dont hesitate to contact me! pepe_ciro@hotmail.com
+

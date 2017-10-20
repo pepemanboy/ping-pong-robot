@@ -159,6 +159,7 @@ git clone [https://github.com/pepemanboy/ping-pong-robot.git](https://github.com
 ```
 
 **12. Setup your workspace**
+
 IMPORTANT HERE. The folder you downloaded contains build and devel folders, as well as other makefiles that are specific to my system. (Will bring them down the github repo when i back them up somewhere else) So, the only folder that concerns you is melendez_ws/src.
 
 Go to your home directory and create a folder with your name that will be your workspace. For example: ~/catherine_ws
@@ -180,6 +181,7 @@ This should build the sources. It takes like 2-5 minutes.
 Now the package is correctly setup.
 
 ***13. Running demo***
+
 For ROS to be able to locate your workspace, everytime you want to work with it, open a terminal and type:
 
 ```
